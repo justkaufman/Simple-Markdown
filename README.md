@@ -6,11 +6,11 @@ The MVP goal is intentionally small: open any Markdown file, edit it, preview it
 
 ## Download
 
-Download the latest drag-to-Applications installer:
+Download the latest app build:
 
-[Download SimpleMarkdown.dmg](dist/releases/SimpleMarkdown.dmg)
+[Download SimpleMarkdown.zip](dist/releases/SimpleMarkdown.zip)
 
-Open the DMG, then drag `SimpleMarkdown.app` into the `Applications` shortcut.
+Unzip the file, then drag `SimpleMarkdown.app` into your Applications folder.
 
 ## MVP Features
 
@@ -32,15 +32,15 @@ From Terminal:
 xcodebuild -project SimpleMarkdown.xcodeproj -scheme SimpleMarkdown -destination 'platform=macOS' build
 ```
 
-## Build a DMG
+## Build a ZIP
 
-Create a Release build and package it as a drag-to-Applications installer:
+Create a Release build and package it as a ZIP containing `SimpleMarkdown.app`:
 
 ```sh
-./scripts/build-dmg.sh
+./scripts/build-zip.sh
 ```
 
-The generated DMG is written to `dist/releases/SimpleMarkdown.dmg`.
+The generated ZIP is written to `dist/releases/SimpleMarkdown.zip`.
 
 ## Roadmap
 
