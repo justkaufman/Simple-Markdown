@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1000010000000000000001 /* SimpleMarkdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000101 /* SimpleMarkdownApp.swift */; };
+		7A1000010000000000000002 /* MarkdownDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000102 /* MarkdownDocument.swift */; };
+		7A1000010000000000000003 /* MarkdownMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000103 /* MarkdownMode.swift */; };
+		7A1000010000000000000004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000104 /* ContentView.swift */; };
+		7A1000010000000000000005 /* MarkdownPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000105 /* MarkdownPreviewView.swift */; };
+		7A1000010000000000000006 /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000106 /* MarkdownRenderer.swift */; };
+		7A1000010000000000000007 /* MarkdownRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000201 /* MarkdownRendererTests.swift */; };
+		7A1000010000000000000009 /* MarkdownEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000109 /* MarkdownEditorView.swift */; };
+		7A1000010000000000000010 /* MarkdownAutoPairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000110 /* MarkdownAutoPairing.swift */; };
+		7A1000010000000000000011 /* MarkdownAutoPairingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000203 /* MarkdownAutoPairingTests.swift */; };
+		7A1000010000000000000013 /* MarkdownSyntaxReferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000204 /* MarkdownSyntaxReferenceTests.swift */; };
+		7A1000010000000000000016 /* MarkdownPreviewAttributedRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000205 /* MarkdownPreviewAttributedRendererTests.swift */; };
+		7A1000010000000000000017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1000010000000000000111 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A1000010000000000000101 /* SimpleMarkdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMarkdownApp.swift; sourceTree = "<group>"; };
+		7A1000010000000000000102 /* MarkdownDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDocument.swift; sourceTree = "<group>"; };
+		7A1000010000000000000103 /* MarkdownMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownMode.swift; sourceTree = "<group>"; };
+		7A1000010000000000000104 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A1000010000000000000105 /* MarkdownPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownPreviewView.swift; sourceTree = "<group>"; };
+		7A1000010000000000000106 /* MarkdownRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRenderer.swift; sourceTree = "<group>"; };
+		7A1000010000000000000107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1000010000000000000108 /* SimpleMarkdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleMarkdown.entitlements; sourceTree = "<group>"; };
+		7A1000010000000000000109 /* MarkdownEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownEditorView.swift; sourceTree = "<group>"; };
+		7A1000010000000000000110 /* MarkdownAutoPairing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownAutoPairing.swift; sourceTree = "<group>"; };
+		7A1000010000000000000111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1000010000000000000201 /* MarkdownRendererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRendererTests.swift; sourceTree = "<group>"; };
+		7A1000010000000000000203 /* MarkdownAutoPairingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownAutoPairingTests.swift; sourceTree = "<group>"; };
+		7A1000010000000000000204 /* MarkdownSyntaxReferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownSyntaxReferenceTests.swift; sourceTree = "<group>"; };
+		7A1000010000000000000205 /* MarkdownPreviewAttributedRendererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownPreviewAttributedRendererTests.swift; sourceTree = "<group>"; };
+		7A1000010000000000000301 /* SimpleMarkdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMarkdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1000010000000000000302 /* SimpleMarkdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMarkdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1000010000000000000401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1000010000000000000402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A1000010000000000000501 = {
+			isa = PBXGroup;
+			children = (
+				7A1000010000000000000502 /* SimpleMarkdown */,
+				7A1000010000000000000503 /* SimpleMarkdownTests */,
+				7A1000010000000000000504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1000010000000000000502 /* SimpleMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				7A1000010000000000000101 /* SimpleMarkdownApp.swift */,
+				7A1000010000000000000102 /* MarkdownDocument.swift */,
+				7A1000010000000000000103 /* MarkdownMode.swift */,
+				7A1000010000000000000104 /* ContentView.swift */,
+				7A1000010000000000000109 /* MarkdownEditorView.swift */,
+				7A1000010000000000000110 /* MarkdownAutoPairing.swift */,
+				7A1000010000000000000105 /* MarkdownPreviewView.swift */,
+				7A1000010000000000000106 /* MarkdownRenderer.swift */,
+				7A1000010000000000000111 /* Assets.xcassets */,
+				7A1000010000000000000107 /* Info.plist */,
+				7A1000010000000000000108 /* SimpleMarkdown.entitlements */,
+			);
+			path = SimpleMarkdown;
+			sourceTree = "<group>";
+		};
+		7A1000010000000000000503 /* SimpleMarkdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A1000010000000000000201 /* MarkdownRendererTests.swift */,
+				7A1000010000000000000203 /* MarkdownAutoPairingTests.swift */,
+				7A1000010000000000000204 /* MarkdownSyntaxReferenceTests.swift */,
+				7A1000010000000000000205 /* MarkdownPreviewAttributedRendererTests.swift */,
+			);
+			path = SimpleMarkdownTests;
+			sourceTree = "<group>";
+		};
+		7A1000010000000000000504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1000010000000000000301 /* SimpleMarkdown.app */,
+				7A1000010000000000000302 /* SimpleMarkdownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1000010000000000000601 /* SimpleMarkdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1000010000000000000901 /* Build configuration list for PBXNativeTarget "SimpleMarkdown" */;
+			buildPhases = (
+				7A1000010000000000000701 /* Sources */,
+				7A1000010000000000000401 /* Frameworks */,
+				7A1000010000000000000801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMarkdown;
+			productName = SimpleMarkdown;
+			productReference = 7A1000010000000000000301 /* SimpleMarkdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A1000010000000000000602 /* SimpleMarkdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1000010000000000000902 /* Build configuration list for PBXNativeTarget "SimpleMarkdownTests" */;
+			buildPhases = (
+				7A1000010000000000000702 /* Sources */,
+				7A1000010000000000000402 /* Frameworks */,
+				7A1000010000000000000802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A1000010000000000000A01 /* PBXTargetDependency */,
+			);
+			name = SimpleMarkdownTests;
+			productName = SimpleMarkdownTests;
+			productReference = 7A1000010000000000000302 /* SimpleMarkdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1000010000000000000B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					7A1000010000000000000601 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					7A1000010000000000000602 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 7A1000010000000000000601;
+					};
+				};
+			};
+			buildConfigurationList = 7A1000010000000000000903 /* Build configuration list for PBXProject "SimpleMarkdown" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1000010000000000000501;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7A1000010000000000000504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1000010000000000000601 /* SimpleMarkdown */,
+				7A1000010000000000000602 /* SimpleMarkdownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1000010000000000000801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1000010000000000000017 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1000010000000000000802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1000010000000000000701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1000010000000000000001 /* SimpleMarkdownApp.swift in Sources */,
+				7A1000010000000000000002 /* MarkdownDocument.swift in Sources */,
+				7A1000010000000000000003 /* MarkdownMode.swift in Sources */,
+				7A1000010000000000000004 /* ContentView.swift in Sources */,
+				7A1000010000000000000009 /* MarkdownEditorView.swift in Sources */,
+				7A1000010000000000000010 /* MarkdownAutoPairing.swift in Sources */,
+				7A1000010000000000000005 /* MarkdownPreviewView.swift in Sources */,
+				7A1000010000000000000006 /* MarkdownRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1000010000000000000702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1000010000000000000007 /* MarkdownRendererTests.swift in Sources */,
+				7A1000010000000000000011 /* MarkdownAutoPairingTests.swift in Sources */,
+				7A1000010000000000000013 /* MarkdownSyntaxReferenceTests.swift in Sources */,
+				7A1000010000000000000016 /* MarkdownPreviewAttributedRendererTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A1000010000000000000A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1000010000000000000601 /* SimpleMarkdown */;
+			targetProxy = 7A1000010000000000000A02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		7A1000010000000000000A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1000010000000000000B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1000010000000000000601;
+			remoteInfo = SimpleMarkdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		7A1000010000000000000C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A1000010000000000000C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7A1000010000000000000C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleMarkdown/SimpleMarkdown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SimpleMarkdown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplemarkdown.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		7A1000010000000000000C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleMarkdown/SimpleMarkdown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SimpleMarkdown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplemarkdown.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		7A1000010000000000000C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplemarkdown.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMarkdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleMarkdown";
+			};
+			name = Debug;
+		};
+		7A1000010000000000000C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplemarkdown.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMarkdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleMarkdown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1000010000000000000901 /* Build configuration list for PBXNativeTarget "SimpleMarkdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1000010000000000000C03 /* Debug */,
+				7A1000010000000000000C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1000010000000000000902 /* Build configuration list for PBXNativeTarget "SimpleMarkdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1000010000000000000C05 /* Debug */,
+				7A1000010000000000000C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1000010000000000000903 /* Build configuration list for PBXProject "SimpleMarkdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1000010000000000000C01 /* Debug */,
+				7A1000010000000000000C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1000010000000000000B01 /* Project object */;
+}
