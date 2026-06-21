@@ -4,6 +4,14 @@ Simple Markdown is a native macOS Markdown editor and previewer built with Swift
 
 The MVP goal is intentionally small: open any Markdown file, edit it, preview it, and save it without creating a vault, workspace, or project.
 
+## Download
+
+Download the latest drag-to-Applications installer:
+
+[Download SimpleMarkdown.dmg](dist/releases/SimpleMarkdown.dmg)
+
+Open the DMG, then drag `SimpleMarkdown.app` into the `Applications` shortcut.
+
 ## MVP Features
 
 - Open `.md`, `.markdown`, and `.txt` files

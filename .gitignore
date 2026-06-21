@@ -2,5 +2,10 @@
 DerivedData/
 build/
 dist/
+!dist/
+dist/*
+!dist/releases/
+dist/releases/*
+!dist/releases/SimpleMarkdown.dmg
 *.xcuserstate
 xcuserdata/
